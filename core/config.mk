@@ -459,7 +459,7 @@ endif
 FIND_LEAVES_EXCLUDES := $(addprefix --prune=, $(SCAN_EXCLUDE_DIRS) .repo .git)
 
 ifneq ($(STATIX_BUILD),)
-include vendor/statix/config/BoardConfigStatix.mk
+include vendor/crooked/config/BoardConfigStatix.mk
 endif
 
 # The build system exposes several variables for where to find the kernel
